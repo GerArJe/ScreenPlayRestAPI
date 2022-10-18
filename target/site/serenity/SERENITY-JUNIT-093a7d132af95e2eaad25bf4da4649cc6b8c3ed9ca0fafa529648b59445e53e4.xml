@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automatizacion de Api Rest" skipped="0" tests="1" time="0.13" timestamp="2022-10-13 03:01:34"><testcase name="Crear un usuario con metodo Patch"><error message="Step [proporciona la informacion del usuario {string} con id {string}] is defined with 2 parameters at 'com.sophossolutions.stepdefinitions.PatchGorestStepDefinitions.proporcionaLaInformacionDelUsuario(java.lang.String,io.cucumber.datatable.DataTable)'.&#10;However, the gherkin step has 3 arguments:&#10; * &quot;public/v2/users/&quot;&#10; * &quot;5772&quot;&#10; * Table:&#10;      | name   | Jose Alberto |&#10;      | status | Inactive     |&#10;&#10;Step text: proporciona la informacion del usuario &quot;public/v2/users/&quot; con id &quot;5772&quot;" type="io.cucumber.core.exception.CucumberException">Step [proporciona la informacion del usuario {string} con id {string}] is defined with 2 parameters at 'com.sophossolutions.stepdefinitions.PatchGorestStepDefinitions.proporcionaLaInformacionDelUsuario(java.lang.String,io.cucumber.datatable.DataTable)'.
+However, the gherkin step has 3 arguments:
+ * "public/v2/users/"
+ * "5772"
+ * Table:
+      | name   | Jose Alberto |
+      | status | Inactive     |
+
+Step text: proporciona la informacion del usuario "public/v2/users/" con id "5772"</error><system-err>Step [proporciona la informacion del usuario {string} con id {string}] is defined with 2 parameters at 'com.sophossolutions.stepdefinitions.PatchGorestStepDefinitions.proporcionaLaInformacionDelUsuario(java.lang.String,io.cucumber.datatable.DataTable)'.
+However, the gherkin step has 3 arguments:
+ * "public/v2/users/"
+ * "5772"
+ * Table:
+      | name   | Jose Alberto |
+      | status | Inactive     |
+
+Step text: proporciona la informacion del usuario "public/v2/users/" con id "5772"&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:235)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)&#13;
+</system-err></testcase></testsuite>
